@@ -1,0 +1,84 @@
+<style>
+        body {
+            
+            margin: 0;
+            padding: 0;
+            background-color:#FFFFFF;
+        }
+
+        header {
+            background-color:#FFFFFF;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+		.hero {
+            text-align: center;
+            padding: 50px;
+            background-color:#FFFFFF;
+            color:#FFFFFF;
+		}
+		.articulos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+		}
+		
+        article {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #aaa;
+            text-align: center;
+        }
+
+        article img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        article h2 {
+            color:#000000;
+		}
+
+        .seccion {
+            text-align: center;
+            padding: 40px;
+            background-color:#000000;
+            color: #333;
+        }
+
+        .info {
+            display: none;
+            text-align: left;
+            padding: 10px;
+            background-color:#000000;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #8B0000;
+            color:#F0420Fe;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .boton:hover {
+            background-color:#EE4128;
+        }
+
+    </style>
+
+/* CSS Document */
+
